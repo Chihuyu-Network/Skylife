@@ -1,0 +1,33 @@
+name: Skylife
+version: '0.1'
+main: love.chihuyu.skylife.Skylife
+api-version: 1.18
+authors: [ Hirosuke, Tenzyu ]
+description: Original skyblock plugin for chihuyu.
+website: chihuyu.love
+commands:
+  barter:
+    aliases:
+      - "trade"
+      - "ba"
+      - "b"
+  gachashop:
+    aliases:
+      - "gacha"
+      - "ga"
+      - "g"
+  gachagive:
+    aliases:
+      - "gg"
+  gachastorage:
+    aliases:
+      - "gs"
+permissions:
+  skylife.command.*:
+    default: op
+  skylife.command.barter:
+    default: true
+  skylife.command.gachashop:
+    default: true
+  skylife.command.gachastorage:
+    default: true
